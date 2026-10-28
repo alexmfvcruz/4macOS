@@ -405,7 +405,7 @@ def install(args):
         manager_login(name, secret)
         say('Happy Tool login saved.')
     say()
-    say('The database password is in Keychain Access, entry 4Story Server.')
+    say('The database password is in Keychain Access, entry 4Story Port Server.')
     say('Install finished. Next: open Start.command.')
 
 
