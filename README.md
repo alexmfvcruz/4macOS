@@ -38,13 +38,3 @@ separate inputs in place:
 The normal build uses the supplied dependency bundle offline. Server installation
 additionally needs Docker/Colima, Rosetta, internet access and Microsoft license
 acceptance. See `tools/release/server/README.md` before installing a server.
-The default client login port is 4815:
-
-```sh
-./4story.command client --server YOUR_SERVER_IP
-```
-
-Source preparation and a successful build do not establish gameplay, Windows
-compatibility, or a fresh server installation. Historical evidence captures have
-been omitted. Optional historical tools may reference excluded fixtures; the
-supported entry point is `4story.command`.
