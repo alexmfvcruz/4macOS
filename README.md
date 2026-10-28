@@ -23,8 +23,7 @@ The source export does not establish permission to redistribute the original
 4Story code, artwork, data, or bundled third-party components. Existing notices
 remain with their components; no new project-wide license is asserted.
 
-See [publication validation](tools/publication/VALIDATION.md) for the exact build
-evidence and the server/client runtime checks that remain untested.
+See [publication validation](tools/publication/VALIDATION.md) for the exact build evidence and the server/client runtime checks.
 
 ## Build on Apple silicon
 
