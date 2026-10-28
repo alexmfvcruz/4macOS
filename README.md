@@ -14,31 +14,31 @@ A fresh setup from a clean copy of the workspace, from the build to a first logi
 
 **1. Check the inputs.** `./4story.command doctor` checks that the game data, libraries and database seeds are present and that nothing links outside the folder. It installs nothing.
 
-![The doctor check passing](docs/screenshots/doctor.jpg)
+[![The doctor check passing](docs/screenshots/doctor.jpg)](https://github.com/alexmfvcruz/4macOS/releases/download/screenshots/doctor.png)
 
 **2. Build.** `./4story.command build all --channel dev --version 0.1` compiles the client, the four game servers and the account tools, then signs the app bundle. The channel and version appear in the client's build label.
 
-![A finished build](docs/screenshots/build.jpg)
+[![A finished build](docs/screenshots/build.jpg)](https://github.com/alexmfvcruz/4macOS/releases/download/screenshots/build.png)
 
 **3. Install the server.** `./4story.command server install` starts a Colima/Docker profile, accepts the SQL Server Express license on your answer, restores the clean databases and asks which address players connect to.
 
-![Server install](docs/screenshots/server-install.jpg)
+[![Server install](docs/screenshots/server-install.jpg)](https://github.com/alexmfvcruz/4macOS/releases/download/screenshots/server-install.png)
 
 **4. Start the game servers.** `./4story.command server start` brings up the Control, Login, World and Map servers and waits until each one reports ready.
 
-![Server start](docs/screenshots/server-start.jpg)
+[![Server start](docs/screenshots/server-start.jpg)](https://github.com/alexmfvcruz/4macOS/releases/download/screenshots/server-start.png)
 
 **5. Create an account.** `./4story.command server create-account NAME` asks for a password twice (it is not echoed) and adds the game account.
 
-![Creating an account](docs/screenshots/create-account.jpg)
+[![Creating an account](docs/screenshots/create-account.jpg)](https://github.com/alexmfvcruz/4macOS/releases/download/screenshots/create-account.png)
 
 **6. Check the status.** `./4story.command server status` shows each game server, the database and the address players use.
 
-![Server status](docs/screenshots/server-status.jpg)
+[![Server status](docs/screenshots/server-status.jpg)](https://github.com/alexmfvcruz/4macOS/releases/download/screenshots/server-status.png)
 
 **7. Log in.** `./4story.command client` opens the native macOS client at the 4Story login screen, with the build label in the bottom right corner.
 
-![The 4Story login screen on macOS](docs/screenshots/client-login.jpg)
+[![The 4Story login screen on macOS](docs/screenshots/client-login.jpg)](https://github.com/alexmfvcruz/4macOS/releases/download/screenshots/client-login.png)
 
 This folder carries the native client/server source, development tools, game
 data, third-party runtime libraries, dependency sources, locked Rust crates,
