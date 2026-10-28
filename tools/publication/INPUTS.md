@@ -42,14 +42,5 @@ Starting a new server also needs Docker/Colima, Rosetta, Microsoft SQL Server,
 Microsoft ODBC Driver 18 and OpenSSL, plus the required vendor license acceptance.
 Those machine prerequisites are not installed by extracting these ZIPs. See
 `tools/release/server/README.md` and use `./4story.command server install` only
-when ready to set up your own instance. Never replace an existing live database
-with the seed backups. Native binaries target Apple silicon; opening the ZIP on
-another Mac does not make that Mac a supported build/runtime platform.
+when ready to set up your own instance.
 
-Local runtime settings, logs, crash dumps and selected machine-specific installer
-metadata are excluded. These are build/game inputs, not a backup of a running
-server. The seed archives do not carry the existing developer's live accounts or
-characters; their integrity is checked by the workspace doctor.
-
-Existing third-party notices remain with their components. No new blanket
-license is asserted over the original game source, data or dependencies.
