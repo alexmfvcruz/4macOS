@@ -10,13 +10,12 @@ build tools and clean database seeds.
 - `server/database/`: clean initial database backups and integrity manifest.
 - `build/`: generated programs and object files; recreated by building.
 - `runtime/`: new local configuration, settings and logs; never share personal state.
+- `tools/publication/INPUTS.md`: Game data
 
 ## What the macOS port adds
 
-The original 4Story 5.0 C++ source is a Windows-only game (Direct3D 9, MFC,
-Win32, IOCP, SQL Server). This port runs the original client and server code
-natively on Apple silicon. Work started on 2026-10-02. The sections below
-summarise what exists, in plain terms.
+The original 4Story 5.0 C++ source is a Windows-only game (Direct3D 9, MFC, Win32, IOCP, SQL Server).
+This port runs the original client and server code natively on Apple silicon.
 
 ### Server
 
