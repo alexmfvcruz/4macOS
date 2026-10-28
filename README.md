@@ -10,31 +10,33 @@
 
 ### Build and run
 
-Check the inputs with `./4story.command doctor`:
+A fresh setup from a clean copy of the workspace, from the build to a first login. These are the terminal output of the launcher commands and the game client, captured on an Apple silicon Mac.
+
+**1. Check the inputs.** `./4story.command doctor` checks that the game data, libraries and database seeds are present and that nothing links outside the folder. It installs nothing.
 
 ![The doctor check passing](docs/screenshots/doctor.jpg)
 
-Build the client, servers and tools:
+**2. Build.** `./4story.command build all --channel dev --version 0.1` compiles the client, the four game servers and the account tools, then signs the app bundle. The channel and version appear in the client's build label.
 
 ![A finished build](docs/screenshots/build.jpg)
 
-Install the server (SQL Server in Colima/Docker):
+**3. Install the server.** `./4story.command server install` starts a Colima/Docker profile, accepts the SQL Server Express license on your answer, restores the clean databases and asks which address players connect to.
 
 ![Server install](docs/screenshots/server-install.jpg)
 
-Start the game servers:
+**4. Start the game servers.** `./4story.command server start` brings up the Control, Login, World and Map servers and waits until each one reports ready.
 
 ![Server start](docs/screenshots/server-start.jpg)
 
-Create a game account:
+**5. Create an account.** `./4story.command server create-account NAME` asks for a password twice (it is not echoed) and adds the game account.
 
 ![Creating an account](docs/screenshots/create-account.jpg)
 
-Check the status of the running server:
+**6. Check the status.** `./4story.command server status` shows each game server, the database and the address players use.
 
 ![Server status](docs/screenshots/server-status.jpg)
 
-Log in from the client:
+**7. Log in.** `./4story.command client` opens the native macOS client at the 4Story login screen, with the build label in the bottom right corner.
 
 ![The 4Story login screen on macOS](docs/screenshots/client-login.jpg)
 
