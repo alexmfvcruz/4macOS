@@ -48,15 +48,3 @@ Source preparation and a successful build do not establish gameplay, Windows
 compatibility, or a fresh server installation. Historical evidence captures have
 been omitted. Optional historical tools may reference excluded fixtures; the
 supported entry point is `4story.command`.
-
-## Repository and large files
-
-Code belongs in ordinary Git. Generated `build/` and private `runtime/` stay local.
-Dependencies and game data are separate distributions; they are not committed or
-tracked with LFS by this export. A maintainer can host authorized bundles through
-GitHub Releases or external storage and supply SHA-256 checksums and versioned
-instructions. Do not upload the original workspace ZIP as a source release.
-
-`SOURCE-MANIFEST.json` records copied source-file hashes after publication
-redactions. It covers the initial exported inputs and repository documents, excluding
-itself; it is not automatically updated after development edits.
