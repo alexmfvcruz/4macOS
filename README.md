@@ -35,7 +35,7 @@ summarise what exists, in plain terms.
   socket layer is a native kqueue/epoll reactor instead of Windows IOCP.
 - **Role control and a supervisor.** Control can stop and start single
   services. A process supervisor restarts crashed services with back-off.
-- **Linux x86_64 server.** A first Linux run on a VPS was recorded.
+- **Linux x86_64 server.** A first Linux run on a VPS was recorded. This current repository however doesn't contain what's necessary to build the Linux server files.
 - **Safety fixes in the original source.** The Map server now rejects
   inventory slots beyond the bag size. A commented-out SMTP credential was
   removed from the Login source.
