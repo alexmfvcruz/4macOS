@@ -4,9 +4,9 @@
 
 | | |
 | --- | --- |
-| ![Magnaktia Soldier's District, running natively on macOS](docs/screenshots/town.jpg) | ![The Encampment of the Spirit](docs/screenshots/camp.jpg) |
-| ![Fighting spirits in the wasteland](docs/screenshots/combat.jpg) | ![Casting a skill](docs/screenshots/skill-cast.jpg) |
-| ![The game settings, with anisotropic filtering, spatial audio and interface scale](docs/screenshots/settings.jpg) | ![The prompt to use F1–F12 without Fn](docs/screenshots/function-keys.jpg) |
+| ![Magnaktia Soldier's District, running natively on macOS](docs/screenshots/town.jpg)<br>**Magnaktia Soldier's District.** The town hub in the native macOS window: portal, NPCs, the quest list, minimap, skill bars and the pink build label in the bottom right corner. | ![The Encampment of the Spirit](docs/screenshots/camp.jpg)<br>**Encampment of the Spirit.** A volley of arrows from the gun turret's Rain of Arrows falls on a Kuptas, with the damage lines in the chat log. |
+| ![Targeting an area skill in the Encampment of the Spirit](docs/screenshots/combat.jpg)<br>**Targeting an area skill.** The same fight a moment later, with a ground-target circle placed on the Kuptas while the arrows keep falling. | ![Fighting spirits in Aznar Wasteland](docs/screenshots/skill-cast.jpg)<br>**Fighting spirits.** Skill effects against Tyrannous Storm Spirits and Wandering Wind Spirits in Aznar Wasteland, with the target's health bar and the combat log. |
+| ![The game settings, with anisotropic filtering, spatial audio and interface scale](docs/screenshots/settings.jpg)<br>**Game settings.** The in-game settings window with the options added by the port: anisotropic filtering, spatial audio for headphones and the interface scale. | ![The prompt to use F1–F12 without Fn](docs/screenshots/function-keys.jpg)<br>**F1–F12 without Fn.** The prompt that offers to use F1–F12 for game skills instead of macOS shortcuts. It needs macOS Accessibility access, and the normal keys return when you switch apps, sleep or quit. |
 
 ### Build and run
 
