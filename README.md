@@ -8,8 +8,7 @@ Windows registry/service exports, local deployment utilities and historical capt
 ## Get the separate build inputs
 
 The repository does **not** include the large offline dependency or game bundles.
-The maintainer supplies standard ZIP archives separately; hosting links are
-pending. See [input archive instructions](tools/publication/INPUTS.md), then copy
+See [input archive instructions](tools/publication/INPUTS.md), then copy
 the unpacked inputs into this checkout at the same paths:
 
 | Path | Contents |
