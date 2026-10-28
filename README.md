@@ -8,6 +8,36 @@
 | ![Fighting spirits in the wasteland](docs/screenshots/combat.jpg) | ![Casting a skill](docs/screenshots/skill-cast.jpg) |
 | ![The game settings, with anisotropic filtering, spatial audio and interface scale](docs/screenshots/settings.jpg) | ![The prompt to use F1–F12 without Fn](docs/screenshots/function-keys.jpg) |
 
+### Build and run
+
+Check the inputs with `./4story.command doctor`:
+
+![The doctor check passing](docs/screenshots/doctor.jpg)
+
+Build the client, servers and tools:
+
+![A finished build](docs/screenshots/build.jpg)
+
+Install the server (SQL Server in Colima/Docker):
+
+![Server install](docs/screenshots/server-install.jpg)
+
+Start the game servers:
+
+![Server start](docs/screenshots/server-start.jpg)
+
+Create a game account:
+
+![Creating an account](docs/screenshots/create-account.jpg)
+
+Check the status of the running server:
+
+![Server status](docs/screenshots/server-status.jpg)
+
+Log in from the client:
+
+![The 4Story login screen on macOS](docs/screenshots/client-login.jpg)
+
 This folder carries the native client/server source, development tools, game
 data, third-party runtime libraries, dependency sources, locked Rust crates,
 build tools and clean database seeds.
@@ -137,10 +167,6 @@ the commands below are the supported workflow for this workspace.
 To build only one target, replace `all` with `client`, `server`, `accounts` or `happy`.
 Building does not start game servers or alter a database.
 
-![The doctor check passing](docs/screenshots/doctor.jpg)
-
-![A finished build](docs/screenshots/build.jpg)
-
 ## Play
 
 After building, open `Play.command` or the development app under
@@ -152,8 +178,6 @@ After building, open `Play.command` or the development app under
 
 The server owner supplies a game account. The default port is 4815. Loopback is
 not a valid local game-login address for this server; use the Mac's LAN address.
-
-![The 4Story login screen on macOS](docs/screenshots/client-login.jpg)
 
 ## Run your own server
 
@@ -176,14 +200,6 @@ and Keychain entry `4Story Port Server`. Configuration and game logs stay under
 inside that Colima profile.
 The game listener ports are 3615, 4815, 3815, 5815 and 4700. Another server using
 those ports must be stopped before this server can start; setup never stops it.
-
-![Server install](docs/screenshots/server-install.jpg)
-
-![Server start](docs/screenshots/server-start.jpg)
-
-![Creating an account](docs/screenshots/create-account.jpg)
-
-![Server status](docs/screenshots/server-status.jpg)
 
 ### Connect to the database
 
