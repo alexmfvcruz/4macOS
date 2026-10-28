@@ -1,4 +1,4 @@
-# 4Story macOS source workspace
+# 4macOS
 
 This folder carries the native client/server source, development tools, game
 data, third-party runtime libraries, dependency sources, locked Rust crates,
