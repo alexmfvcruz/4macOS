@@ -1,0 +1,230 @@
+{
+ "step": "C3-A1 (Q-B19 item 3)",
+ "date": "2026-10-15",
+ "method": "D3DXAssembleShader(source bytes, size, NULL, NULL, 0, &code, &errors) as Engine Lib/D3DDevice.cpp:883-889 and :918; program assemble-windows.cpp",
+ "assembler": {
+  "file": "game/D3DX9_43.dll",
+  "file_version": "9.29.952.3111",
+  "sha256": "0b28546be22c71834501f7d7185ede5d79742457331c7ee09efc14490dd64f5f"
+ },
+ "build": "MSVC v143 x86 (arm64_x86 cross), import library DirectX SDK June 2010 Lib/x86/d3dx9.lib",
+ "host": "Windows 11 ARM64 VM (x86 emulation)",
+ "shaders": [
+  {
+   "shader": "PS_ADD.psh",
+   "source_bytes": 1277,
+   "source_sha256": "8cb3267445b6d92ffbc20569df0badb952bea15a95a05d141ddb65b338cc618a",
+   "code_bytes": 196,
+   "code_sha256": "1a096a4eb275b109f341013953b4cba1319098c56154767657ce70fc9282dd47",
+   "hresult": "0x00000000"
+  },
+  {
+   "shader": "PS_ADDSIGNED.psh",
+   "source_bytes": 1311,
+   "source_sha256": "6f7de743646f8dcbbda11f7da89498faff8a6fb114d6a85d04321f97d2481380",
+   "code_bytes": 212,
+   "code_sha256": "7d30a76f4ee815e861b7879918b97f73e164d73d2d41909013cbde3ccf3ffca3",
+   "hresult": "0x00000000"
+  },
+  {
+   "shader": "PS_ADDSIGNED2X.psh",
+   "source_bytes": 1339,
+   "source_sha256": "d0f3af09dd7a4a540bf7aefe7f943bd6af64d213bdab0ad963d036d69cc77880",
+   "code_bytes": 228,
+   "code_sha256": "25cd3767551d10fd270e85362b82cee62ca944b41240af6597576cb5921c0fe6",
+   "hresult": "0x00000000"
+  },
+  {
+   "shader": "PS_ADDSMOOTH.psh",
+   "source_bytes": 1313,
+   "source_sha256": "5153c455dd02cd41abfeb18f59d6decc33ab2ef8ea532e2ebbb6e0e2ee3435a4",
+   "code_bytes": 216,
+   "code_sha256": "cd686096ce6216ddd808e84f65a2690941b76f90abc3670cd6c6934dea7eeeed",
+   "hresult": "0x00000000"
+  },
+  {
+   "shader": "PS_BLENDCURRENTALPHA.psh",
+   "source_bytes": 1363,
+   "source_sha256": "461444ab9aef5436ffb81611ed08128eaa8d4b389f776da3a60a1a1db5768108",
+   "code_bytes": 232,
+   "code_sha256": "7e059b32c4d8820fde380522984f936e2b2f4086a0909d77fdaa39ae3f00ec05",
+   "hresult": "0x00000000"
+  },
+  {
+   "shader": "PS_BLENDDIFFUSEALPHA.psh",
+   "source_bytes": 1363,
+   "source_sha256": "5ccb3dad61681534615de1de771ca8cd00b4ca4d13a36103687fa7cebacc08cb",
+   "code_bytes": 232,
+   "code_sha256": "6f0f830317848a63d42c48d4be05ba166aebb99c4f45dc76d260580890850f3a",
+   "hresult": "0x00000000"
+  },
+  {
+   "shader": "PS_BLENDFACTORALPHA.psh",
+   "source_bytes": 1361,
+   "source_sha256": "bfcb9c7e8fe825c2d5147970d2d7fef3ba5cdfe8f05196ce5ad216ac47e25901",
+   "code_bytes": 232,
+   "code_sha256": "01e7e457db5622ebb7dd3b513ff78fe253d294ab059ec0f0d5ac3c384d523322",
+   "hresult": "0x00000000"
+  },
+  {
+   "shader": "PS_BLENDTEXTUREALPHA.psh",
+   "source_bytes": 1363,
+   "source_sha256": "0219443cababe41537a58031986cb9f3c2e8b8c951fec0a0abe4baed1b698108",
+   "code_bytes": 232,
+   "code_sha256": "6fef5cfc8ce5d8fa66e4e2d339706e896f668415395c61a482084bf85006a668",
+   "hresult": "0x00000000"
+  },
+  {
+   "shader": "PS_BLENDTEXTUREALPHAPM.psh",
+   "source_bytes": 1343,
+   "source_sha256": "2a1913692b61e824026711b47e5336a88d52caf836b323106fe6940fe07df824",
+   "code_bytes": 216,
+   "code_sha256": "f2302c35a5af2e86f35a18a38989cf7550e3df2e19802be2e33679251eb4fa84",
+   "hresult": "0x00000000"
+  },
+  {
+   "shader": "PS_DETAILMAP.psh",
+   "source_bytes": 1458,
+   "source_sha256": "702cbbf705f3288478eb563078ab4d0e5bcffd42da776d6125955e3dfb93104e",
+   "code_bytes": 380,
+   "code_sha256": "3f5cdedff5eac0370bb9f9fae43efd952b388e2757bf614434ee213f0cb2ccc6",
+   "hresult": "0x00000000"
+  },
+  {
+   "shader": "PS_DOTPRODUCT3.psh",
+   "source_bytes": 1293,
+   "source_sha256": "5f556f4c45ef5aa8ca5a99fc7ffc28f273eece043172ca9fca72fb64b3778ff0",
+   "code_bytes": 196,
+   "code_sha256": "faaa759803a6548caafceb1abe1cda6264840fe6436b0fb25d601f3ca65ad769",
+   "hresult": "0x00000000"
+  },
+  {
+   "shader": "PS_LERP.psh",
+   "source_bytes": 1283,
+   "source_sha256": "5b1cf4f762990f0024c3d259e0dec437052e5b4ff3c4937b3d475c83eacde010",
+   "code_bytes": 200,
+   "code_sha256": "be792ab56dd99af461a075958ea49e48f4c24256209002a25344d7ea18e7e0b4",
+   "hresult": "0x00000000"
+  },
+  {
+   "shader": "PS_MAP.psh",
+   "source_bytes": 738,
+   "source_sha256": "771794ddcfd013d323386b1f667ee5587d950865d41f16662c0672e328f9bfb3",
+   "code_bytes": 100,
+   "code_sha256": "1bd5fc03fb2c889e1a46d89606dcbb3a7fa001f0c0c1b899d5dca14285dc2631",
+   "hresult": "0x00000000"
+  },
+  {
+   "shader": "PS_MODULATE.psh",
+   "source_bytes": 1287,
+   "source_sha256": "712c7100c51eb348bd1ba47aa834f156a0fb3b20c318b6088c110049d80c321b",
+   "code_bytes": 196,
+   "code_sha256": "30df60e1be49031b76dea153308dde1c0e5f09f9c65cea7137ca7060a84e3fe7",
+   "hresult": "0x00000000"
+  },
+  {
+   "shader": "PS_MODULATE2X.psh",
+   "source_bytes": 1315,
+   "source_sha256": "94dd8b36af943ff2ab16f820784496c48b30ccb720c723c1c9a55c0335db0eda",
+   "code_bytes": 212,
+   "code_sha256": "3214e7007fc227c6d6a598af2181fce24d9dd2dc979a95580d5aab6bd82844e7",
+   "hresult": "0x00000000"
+  },
+  {
+   "shader": "PS_MODULATE4X.psh",
+   "source_bytes": 1315,
+   "source_sha256": "3eacd79ce98a0c1962fb18ff80d4050ab031ddd9e0ff51d7ef2b2eb676074524",
+   "code_bytes": 212,
+   "code_sha256": "0d5ec392185aab2c9bb5befcd9d5e1585c93da4c36d5edd8620b5cb68fd10f75",
+   "hresult": "0x00000000"
+  },
+  {
+   "shader": "PS_MODULATEALPHA_ADDCOLOR.psh",
+   "source_bytes": 1328,
+   "source_sha256": "596365e77aba66bf6f9b1b30454ecd6fd6c1d5b3cec2a006a6c7593e768eecae",
+   "code_bytes": 200,
+   "code_sha256": "1f430c6a5dd9169c935adef8f7deb12d6951f567d51a125e52048699039534ec",
+   "hresult": "0x00000000"
+  },
+  {
+   "shader": "PS_MODULATECOLOR_ADDALPHA.psh",
+   "source_bytes": 1328,
+   "source_sha256": "9a9c1de9387ec598eb05ba99d706ca61e3e9d5b2ea9e73d3837f28c39164b975",
+   "code_bytes": 200,
+   "code_sha256": "1382550cf4bca27505a682a1a0ee147012446f000b1f9c094c708e6f79c41757",
+   "hresult": "0x00000000"
+  },
+  {
+   "shader": "PS_MODULATEINVALPHA_ADDCOLOR.psh",
+   "source_bytes": 1359,
+   "source_sha256": "62be78219cddb0c22d504169c2e8a4d07f4c53aca28daf1fcac3767be99bff2b",
+   "code_bytes": 216,
+   "code_sha256": "8c88baaa88ebe63da27c9f704046c118c8e4492bc98b1504389c9129f51648f6",
+   "hresult": "0x00000000"
+  },
+  {
+   "shader": "PS_MODULATEINVCOLOR_ADDALPHA.psh",
+   "source_bytes": 1359,
+   "source_sha256": "040d6950361967383db62ae30c817b29ad64c5affca90bea0ca9c9a4b2aa0652",
+   "code_bytes": 216,
+   "code_sha256": "f29e0384c02630d5852c5e1576b07f1be3fa342d4b3665a4a27c03e4462751b8",
+   "hresult": "0x00000000"
+  },
+  {
+   "shader": "PS_MULTIPLYADD.psh",
+   "source_bytes": 1297,
+   "source_sha256": "ec6d2ed4737b9765c8c2708b9d833c6cc802a0869cee532053901abc165aa97a",
+   "code_bytes": 200,
+   "code_sha256": "67b27f1b02c4add45013b2befcd73fd9c9e86b644bc5992cdf869d070b36c2e5",
+   "hresult": "0x00000000"
+  },
+  {
+   "shader": "PS_SHADER.psh",
+   "source_bytes": 1799,
+   "source_sha256": "81fb8b34fcd6b7a8923b7a9dc25192e71c039f580814247c1aeeb31765255c06",
+   "code_bytes": 420,
+   "code_sha256": "d4e99860aa9fcb461c416d6c517fc1503541750bf3cfd4cd62a3e1b701e16724",
+   "hresult": "0x00000000"
+  },
+  {
+   "shader": "PS_STAGE1.psh",
+   "source_bytes": 1039,
+   "source_sha256": "7cfe79688fb2903befa79223fb8b2bea10619d5676325680732e7e8bbdb48fe7",
+   "code_bytes": 120,
+   "code_sha256": "9b32140e51f141eeefb02bfa73a18a1a909188b85a7e9c2869d6b83ca1d7ceb5",
+   "hresult": "0x00000000"
+  },
+  {
+   "shader": "PS_SUBTRACT.psh",
+   "source_bytes": 1288,
+   "source_sha256": "0170c007c7d1ce4f302137ebe52eaf2f26249751828fc38d8649b69a402b81c5",
+   "code_bytes": 196,
+   "code_sha256": "9a45f8172e643c9fcd71e95d2f3da2f31ec11d1fc9f378ffba2fb88b84f3f99b",
+   "hresult": "0x00000000"
+  },
+  {
+   "shader": "VS_LVERTEX.vsh",
+   "source_bytes": 1755,
+   "source_sha256": "5201949dcfc0926c1ffad73c9a763f45a8f231c3bb1e55571a1fcadc35ee2840",
+   "code_bytes": 308,
+   "code_sha256": "01719b322256c48595e0780623739b8df4f6d6f2400cc444272042c1d769bc25",
+   "hresult": "0x00000000"
+  },
+  {
+   "shader": "VS_MESH.vsh",
+   "source_bytes": 2407,
+   "source_sha256": "c7332e42d7fa89a7f0f6cc2f62dac208c15628281c7429f0b0256535c7eff87b",
+   "code_bytes": 612,
+   "code_sha256": "517ae357b6d6f65e1fcb2b9abd0c15ca0bfc0bc78458c0465508d6a2f4c3bbcb",
+   "hresult": "0x00000000"
+  },
+  {
+   "shader": "VS_WMESH.vsh",
+   "source_bytes": 3813,
+   "source_sha256": "91ffe9aca16ffc9589a1ea23752e32d96bae8a7523443eae3eeb5753763e912b",
+   "code_bytes": 1072,
+   "code_sha256": "d44ebcf6e8e2be66ac0c60883ee3461c8aef1c0807b60f60b7a6fac89a88cab0",
+   "hresult": "0x00000000"
+  }
+ ]
+}

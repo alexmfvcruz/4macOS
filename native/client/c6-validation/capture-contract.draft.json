@@ -1,0 +1,316 @@
+{
+  "schema": 1,
+  "status": "DRAFT",
+  "scope": "preview",
+  "scenes": [
+    {
+      "id": "terrain-overview",
+      "dimensions": [
+        640,
+        480
+      ],
+      "required_categories": [
+        "terrain_base",
+        "terrain_detail"
+      ],
+      "parameters": {
+        "gameplay_map_id": 0,
+        "resource_map_id": 2000001,
+        "unit_id": 37,
+        "camera": {
+          "eye": [
+            1536,
+            351.8390197753906,
+            4448
+          ],
+          "target": [
+            1536,
+            107.9251708984375,
+            4608
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "fov_y_radians": 1.0471975511965976,
+          "near": 0.5,
+          "far": 2048
+        },
+        "simulation_tick": 0,
+        "animation_tick": 500,
+        "texture_tick": 0,
+        "random_seed": 1,
+        "view_matrix": null,
+        "projection_matrix": null,
+        "lighting": {
+          "map_light": [
+            -0.5,
+            -2.0,
+            -0.5
+          ],
+          "intensity": 35.0
+        },
+        "fog": {
+          "unresolved": "capture actual Windows production fog state"
+        },
+        "render_flags": {
+          "terrain": true,
+          "bsp": false,
+          "objects": false,
+          "characters": false,
+          "water": false,
+          "effects": false,
+          "minimap": false,
+          "glow": false,
+          "shadows": true,
+          "terrain_shader": false
+        },
+        "unresolved": [
+          "Windows framing approval",
+          "actual view/projection float matrices",
+          "actual fog/lighting and inherited sampler state",
+          "complete used texture/shader payload hashes",
+          "stable warmup/streaming ready signal"
+        ]
+      },
+      "asset_hashes": {
+        "Index/TClientP.IDX": "28508afa4d7c9c23907d19db4788741f612b5df7935a3b9b677c648626db17ba",
+        "Tcd/TMAP.tcd": "5eb1348b223d822c56cab5154c4d198d23f7cef78a8e34d14ed99ab2d3e0dcb6",
+        "Data/MAP/Field.TMA": "a9454198bc69d6b020c6e6c2effb803319317ae7ec62a07b8c2ceae480bc274a",
+        "Data/MAP/Indun.TMA": "605b229889b3a331b93648e77e93c158a7d15e054fcae4aa8e3c680f89b6531e",
+        "Data/MAP/Past.TMA": "877e0b82e1975343548528a037787f83a058e0db1cb6cf3fe3cbfb657a6a3a90",
+        "Data/MAP/EM2000001_3.tmu": "c35ee7d95142dcaa4b19f6d3fad122cb49b7f540befa97f0275debc23c6e4cdf",
+        "Data/MAP/EM2000001_12.tmu": "23c61fd9bccaaa6e412232f826c1ad83d9b1d78aec45780aac6ae4bbac99377c",
+        "Data/MAP/EM2000001_21.tmu": "6e75116682757139cb445245336113f2263e629f67451a2b2f84644da9a77462",
+        "Data/MAP/EM2000001_29.tmu": "5238ec81cabbc1a1fe273a3daae2ffac1a833feccfae0ed65c66251ca7f18ffb",
+        "Data/MAP/EM2000001_30.tmu": "f1fd9ae2c908fedf9da518880b9b5ae2d45394d6384f4ac2b306cf2035fca820",
+        "Data/MAP/EM2000001_31.tmu": "377ffcdae52c3afd561233f86ffb4fcc027ead4996c9e11176c3ab95817a09d3",
+        "Data/MAP/EM2000001_32.tmu": "c64bc5952ccafad4cc8ddebe65cbf28a56761ccb18aef812dd641dfadbdf9cca",
+        "Data/MAP/EM2000001_37.tmu": "558624dbf851668f743825eb497904b0f758f62ee104f21e7c4476530ad8a818",
+        "Data/MAP/EM2000001_38.tmu": "7d092eae89cbc79ec7c32ccdb8d6992effbf5004d9e3022d3c5c441bb799efc0",
+        "Data/MAP/EM2000001_39.tmu": "fe4042af1fce075f3d73dd6e4c42255907bdc18164d5f70a5f3ef90a55416812",
+        "Data/MAP/EM2000001_40.tmu": "c6a17bb415b10e370d8a9bda8a819ca0fae413090d2b0a7aca70932d11c56608",
+        "Data/MAP/EM2000001_41.tmu": "a9ba1997438e5db1be9070d3c6743587786b4452228d7b23ca96bc3bd1653226",
+        "Data/MAP/EM2000001_42.tmu": "024970d0c63fccb49905d2ef70722c8e069420bba87688153b4a1cc0e8dd8615",
+        "Data/MAP/EM2000001_46.tmu": "8afd9df982d8053382eaa4dd704bd48710022abb284b23f5fa434b2614f0e1b8",
+        "Data/MAP/EM2000001_47.tmu": "7966d0d3f06687b83cc8ef19313454dfdf5238ad0626df826b0fe96a134f0d68",
+        "Data/MAP/EM2000001_48.tmu": "cf8cd41f47eb9a65682190ef0b07e4f7972610c2fcf02f48ef2ebf69d23ee40b",
+        "Data/MAP/EM2000001_49.tmu": "66bf4ee90430a60c8020d58a99f821bba96799db9bd6f57170f03ccd385e50ee",
+        "Data/MAP/EM2000001_50.tmu": "33e9b83a188081134db810e63ef12dec1ee6c71d86fae118124272ae5ea6a998",
+        "Data/MAP/EM2000001_51.tmu": "526699f1233a7143cf5942a2ad7da75a9527b899edd59aa6f16340565b88ac25",
+        "Data/MAP/EM2000001_56.tmu": "89b45112cad013782aaeba14362723b2ec14bd846d25e688d383615e1ec5338a",
+        "Data/MAP/EM2000001_57.tmu": "1929099f97d4babe3d55d9ec57d2b23aba023181c3e70efda70fbff31568a76a",
+        "Data/MAP/EM2000001_58.tmu": "801137546a3a94a8ee9c04ff3ae7c3a2996664ed0bc8f102cfa10d81be057e3a",
+        "Data/MAP/EM2000001_59.tmu": "6636655e26482a1a842a5b6e2fd1eae126727eb4f756b5441443b5fbe0f049ab",
+        "Data/MAP/EM2000001_60.tmu": "52514b6eed69fd785d8b91d4179f0babdcadab1dab947af0f143c6111b230413"
+      }
+    },
+    {
+      "id": "terrain-layer-stress",
+      "dimensions": [
+        640,
+        480
+      ],
+      "required_categories": [
+        "terrain_base",
+        "terrain_detail"
+      ],
+      "parameters": {
+        "gameplay_map_id": 0,
+        "resource_map_id": 2000001,
+        "unit_id": 57,
+        "camera": {
+          "eye": [
+            3584,
+            346.461669921875,
+            6496
+          ],
+          "target": [
+            3584,
+            149.1474151611328,
+            6656
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "fov_y_radians": 1.0471975511965976,
+          "near": 0.5,
+          "far": 2048
+        },
+        "simulation_tick": 0,
+        "animation_tick": 500,
+        "texture_tick": 0,
+        "random_seed": 1,
+        "view_matrix": null,
+        "projection_matrix": null,
+        "lighting": {
+          "map_light": [
+            -0.5,
+            -2.0,
+            -0.5
+          ],
+          "intensity": 35.0
+        },
+        "fog": {
+          "unresolved": "capture actual Windows production fog state"
+        },
+        "render_flags": {
+          "terrain": true,
+          "bsp": false,
+          "objects": false,
+          "characters": false,
+          "water": false,
+          "effects": false,
+          "minimap": false,
+          "glow": false,
+          "shadows": true,
+          "terrain_shader": false
+        },
+        "unresolved": [
+          "Windows framing approval",
+          "actual view/projection float matrices",
+          "actual fog/lighting and inherited sampler state",
+          "complete used texture/shader payload hashes",
+          "stable warmup/streaming ready signal"
+        ]
+      },
+      "asset_hashes": {
+        "Index/TClientP.IDX": "28508afa4d7c9c23907d19db4788741f612b5df7935a3b9b677c648626db17ba",
+        "Tcd/TMAP.tcd": "5eb1348b223d822c56cab5154c4d198d23f7cef78a8e34d14ed99ab2d3e0dcb6",
+        "Data/MAP/Field.TMA": "a9454198bc69d6b020c6e6c2effb803319317ae7ec62a07b8c2ceae480bc274a",
+        "Data/MAP/Indun.TMA": "605b229889b3a331b93648e77e93c158a7d15e054fcae4aa8e3c680f89b6531e",
+        "Data/MAP/Past.TMA": "877e0b82e1975343548528a037787f83a058e0db1cb6cf3fe3cbfb657a6a3a90",
+        "Data/MAP/EM2000001_3.tmu": "c35ee7d95142dcaa4b19f6d3fad122cb49b7f540befa97f0275debc23c6e4cdf",
+        "Data/MAP/EM2000001_12.tmu": "23c61fd9bccaaa6e412232f826c1ad83d9b1d78aec45780aac6ae4bbac99377c",
+        "Data/MAP/EM2000001_21.tmu": "6e75116682757139cb445245336113f2263e629f67451a2b2f84644da9a77462",
+        "Data/MAP/EM2000001_29.tmu": "5238ec81cabbc1a1fe273a3daae2ffac1a833feccfae0ed65c66251ca7f18ffb",
+        "Data/MAP/EM2000001_30.tmu": "f1fd9ae2c908fedf9da518880b9b5ae2d45394d6384f4ac2b306cf2035fca820",
+        "Data/MAP/EM2000001_31.tmu": "377ffcdae52c3afd561233f86ffb4fcc027ead4996c9e11176c3ab95817a09d3",
+        "Data/MAP/EM2000001_32.tmu": "c64bc5952ccafad4cc8ddebe65cbf28a56761ccb18aef812dd641dfadbdf9cca",
+        "Data/MAP/EM2000001_37.tmu": "558624dbf851668f743825eb497904b0f758f62ee104f21e7c4476530ad8a818",
+        "Data/MAP/EM2000001_38.tmu": "7d092eae89cbc79ec7c32ccdb8d6992effbf5004d9e3022d3c5c441bb799efc0",
+        "Data/MAP/EM2000001_39.tmu": "fe4042af1fce075f3d73dd6e4c42255907bdc18164d5f70a5f3ef90a55416812",
+        "Data/MAP/EM2000001_40.tmu": "c6a17bb415b10e370d8a9bda8a819ca0fae413090d2b0a7aca70932d11c56608",
+        "Data/MAP/EM2000001_41.tmu": "a9ba1997438e5db1be9070d3c6743587786b4452228d7b23ca96bc3bd1653226",
+        "Data/MAP/EM2000001_42.tmu": "024970d0c63fccb49905d2ef70722c8e069420bba87688153b4a1cc0e8dd8615",
+        "Data/MAP/EM2000001_46.tmu": "8afd9df982d8053382eaa4dd704bd48710022abb284b23f5fa434b2614f0e1b8",
+        "Data/MAP/EM2000001_47.tmu": "7966d0d3f06687b83cc8ef19313454dfdf5238ad0626df826b0fe96a134f0d68",
+        "Data/MAP/EM2000001_48.tmu": "cf8cd41f47eb9a65682190ef0b07e4f7972610c2fcf02f48ef2ebf69d23ee40b",
+        "Data/MAP/EM2000001_49.tmu": "66bf4ee90430a60c8020d58a99f821bba96799db9bd6f57170f03ccd385e50ee",
+        "Data/MAP/EM2000001_50.tmu": "33e9b83a188081134db810e63ef12dec1ee6c71d86fae118124272ae5ea6a998",
+        "Data/MAP/EM2000001_51.tmu": "526699f1233a7143cf5942a2ad7da75a9527b899edd59aa6f16340565b88ac25",
+        "Data/MAP/EM2000001_56.tmu": "89b45112cad013782aaeba14362723b2ec14bd846d25e688d383615e1ec5338a",
+        "Data/MAP/EM2000001_57.tmu": "1929099f97d4babe3d55d9ec57d2b23aba023181c3e70efda70fbff31568a76a",
+        "Data/MAP/EM2000001_58.tmu": "801137546a3a94a8ee9c04ff3ae7c3a2996664ed0bc8f102cfa10d81be057e3a",
+        "Data/MAP/EM2000001_59.tmu": "6636655e26482a1a842a5b6e2fd1eae126727eb4f756b5441443b5fbe0f049ab",
+        "Data/MAP/EM2000001_60.tmu": "52514b6eed69fd785d8b91d4179f0babdcadab1dab947af0f143c6111b230413"
+      }
+    },
+    {
+      "id": "terrain-effect-candidate",
+      "dimensions": [
+        640,
+        480
+      ],
+      "required_categories": [
+        "terrain_base",
+        "terrain_detail"
+      ],
+      "parameters": {
+        "gameplay_map_id": 0,
+        "resource_map_id": 2000001,
+        "unit_id": 3,
+        "camera": {
+          "eye": [
+            3584,
+            335.00001525878906,
+            352
+          ],
+          "target": [
+            3584,
+            173.00001525878906,
+            512
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "fov_y_radians": 1.0471975511965976,
+          "near": 0.5,
+          "far": 2048
+        },
+        "simulation_tick": 0,
+        "animation_tick": 500,
+        "texture_tick": 0,
+        "random_seed": 1,
+        "view_matrix": null,
+        "projection_matrix": null,
+        "lighting": {
+          "map_light": [
+            -0.5,
+            -2.0,
+            -0.5
+          ],
+          "intensity": 35.0
+        },
+        "fog": {
+          "unresolved": "capture actual Windows production fog state"
+        },
+        "render_flags": {
+          "terrain": true,
+          "bsp": false,
+          "objects": false,
+          "characters": false,
+          "water": false,
+          "effects": false,
+          "minimap": false,
+          "glow": false,
+          "shadows": true,
+          "terrain_shader": false
+        },
+        "unresolved": [
+          "Windows framing approval",
+          "actual view/projection float matrices",
+          "actual fog/lighting and inherited sampler state",
+          "complete used texture/shader payload hashes",
+          "stable warmup/streaming ready signal"
+        ]
+      },
+      "asset_hashes": {
+        "Index/TClientP.IDX": "28508afa4d7c9c23907d19db4788741f612b5df7935a3b9b677c648626db17ba",
+        "Tcd/TMAP.tcd": "5eb1348b223d822c56cab5154c4d198d23f7cef78a8e34d14ed99ab2d3e0dcb6",
+        "Data/MAP/Field.TMA": "a9454198bc69d6b020c6e6c2effb803319317ae7ec62a07b8c2ceae480bc274a",
+        "Data/MAP/Indun.TMA": "605b229889b3a331b93648e77e93c158a7d15e054fcae4aa8e3c680f89b6531e",
+        "Data/MAP/Past.TMA": "877e0b82e1975343548528a037787f83a058e0db1cb6cf3fe3cbfb657a6a3a90",
+        "Data/MAP/EM2000001_3.tmu": "c35ee7d95142dcaa4b19f6d3fad122cb49b7f540befa97f0275debc23c6e4cdf",
+        "Data/MAP/EM2000001_12.tmu": "23c61fd9bccaaa6e412232f826c1ad83d9b1d78aec45780aac6ae4bbac99377c",
+        "Data/MAP/EM2000001_21.tmu": "6e75116682757139cb445245336113f2263e629f67451a2b2f84644da9a77462",
+        "Data/MAP/EM2000001_29.tmu": "5238ec81cabbc1a1fe273a3daae2ffac1a833feccfae0ed65c66251ca7f18ffb",
+        "Data/MAP/EM2000001_30.tmu": "f1fd9ae2c908fedf9da518880b9b5ae2d45394d6384f4ac2b306cf2035fca820",
+        "Data/MAP/EM2000001_31.tmu": "377ffcdae52c3afd561233f86ffb4fcc027ead4996c9e11176c3ab95817a09d3",
+        "Data/MAP/EM2000001_32.tmu": "c64bc5952ccafad4cc8ddebe65cbf28a56761ccb18aef812dd641dfadbdf9cca",
+        "Data/MAP/EM2000001_37.tmu": "558624dbf851668f743825eb497904b0f758f62ee104f21e7c4476530ad8a818",
+        "Data/MAP/EM2000001_38.tmu": "7d092eae89cbc79ec7c32ccdb8d6992effbf5004d9e3022d3c5c441bb799efc0",
+        "Data/MAP/EM2000001_39.tmu": "fe4042af1fce075f3d73dd6e4c42255907bdc18164d5f70a5f3ef90a55416812",
+        "Data/MAP/EM2000001_40.tmu": "c6a17bb415b10e370d8a9bda8a819ca0fae413090d2b0a7aca70932d11c56608",
+        "Data/MAP/EM2000001_41.tmu": "a9ba1997438e5db1be9070d3c6743587786b4452228d7b23ca96bc3bd1653226",
+        "Data/MAP/EM2000001_42.tmu": "024970d0c63fccb49905d2ef70722c8e069420bba87688153b4a1cc0e8dd8615",
+        "Data/MAP/EM2000001_46.tmu": "8afd9df982d8053382eaa4dd704bd48710022abb284b23f5fa434b2614f0e1b8",
+        "Data/MAP/EM2000001_47.tmu": "7966d0d3f06687b83cc8ef19313454dfdf5238ad0626df826b0fe96a134f0d68",
+        "Data/MAP/EM2000001_48.tmu": "cf8cd41f47eb9a65682190ef0b07e4f7972610c2fcf02f48ef2ebf69d23ee40b",
+        "Data/MAP/EM2000001_49.tmu": "66bf4ee90430a60c8020d58a99f821bba96799db9bd6f57170f03ccd385e50ee",
+        "Data/MAP/EM2000001_50.tmu": "33e9b83a188081134db810e63ef12dec1ee6c71d86fae118124272ae5ea6a998",
+        "Data/MAP/EM2000001_51.tmu": "526699f1233a7143cf5942a2ad7da75a9527b899edd59aa6f16340565b88ac25",
+        "Data/MAP/EM2000001_56.tmu": "89b45112cad013782aaeba14362723b2ec14bd846d25e688d383615e1ec5338a",
+        "Data/MAP/EM2000001_57.tmu": "1929099f97d4babe3d55d9ec57d2b23aba023181c3e70efda70fbff31568a76a",
+        "Data/MAP/EM2000001_58.tmu": "801137546a3a94a8ee9c04ff3ae7c3a2996664ed0bc8f102cfa10d81be057e3a",
+        "Data/MAP/EM2000001_59.tmu": "6636655e26482a1a842a5b6e2fd1eae126727eb4f756b5441443b5fbe0f049ab",
+        "Data/MAP/EM2000001_60.tmu": "52514b6eed69fd785d8b91d4179f0babdcadab1dab947af0f143c6111b230413"
+      }
+    }
+  ]
+}

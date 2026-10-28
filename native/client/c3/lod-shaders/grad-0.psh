@@ -1,0 +1,7 @@
+ps_3_0
+dcl_texcoord0 v0
+dcl_2d s0
+mov r1, c0
+mov r2, c1
+texldd r0, v0, s0, r1, r2
+mov oC0, r0

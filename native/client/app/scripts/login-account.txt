@@ -1,0 +1,9 @@
+# C4 criterion 5: log in with the test account (C4_USER, C4_PASS from the
+# environment), then capture the server/channel and character screens.
+45000 click 650 724
+45500 text-env C4_USER
+46000 click 650 752
+46500 text-env C4_PASS
+47000 click 780 738
+52000 click 640 711
+54000 key 13

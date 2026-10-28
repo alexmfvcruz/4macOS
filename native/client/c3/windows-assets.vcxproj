@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Original Windows engine reference for C3; no native compatibility headers.
+     SrcRoot names the existing built source tree. DumpSource names the same
+     portable original-object scene source used on macOS. -->
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|Win32"><Configuration>Release</Configuration><Platform>Win32</Platform></ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64"><Configuration>Release</Configuration><Platform>x64</Platform></ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C1D0C1D0-0001-4C1D-9C1D-000000000001}</ProjectGuid>
+    <RootNamespace>c3assets</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>Static</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <PropertyGroup>
+    <LibArch Condition="'$(Platform)'=='x64'">x64</LibArch>
+    <LibArch Condition="'$(Platform)'=='Win32'">x86</LibArch>
+    <ArchDefine Condition="'$(Platform)'=='x64'">FOURSTORY_CLIENT_64;</ArchDefine>
+    <ArchDefine Condition="'$(Platform)'=='Win32'">WIN32;</ArchDefine>
+    <SDLArch Condition="'$(Platform)'=='Win32'">x86</SDLArch>
+    <SDLArch Condition="'$(Platform)'=='x64'">x64</SDLArch>
+    <TargetName>c3-assets</TargetName>
+    <IntDir>$(ProjectDir)obj\$(Platform)\</IntDir>
+    <OutDir>$(ProjectDir)bin\$(Platform)\</OutDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>$(ArchDefine)NDEBUG;_CONSOLE;FOURSTORY_CLIENT_MOD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(C3Source);$(SDLRoot)\include;$(WindowsSDK_IncludePath);$(SrcRoot)\Lib\Own\Engine Lib\Engine Lib;$(SrcRoot)\Lib\Own\TComp\TComp;$(SrcRoot)\Lib\3rdParty\zlib\include;$(SrcRoot)\Lib\Own\TCML\TCML;$(SrcRoot)\Lib\Own\TChart\TChart;$(SrcRoot)\Lib\Own\TProtocol\include;$(SrcRoot)\Lib\3rdParty\DirectX9 (June 2010)\Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <AdditionalDependencies>SDL3.lib;Engine Lib.lib;zlibstatic.lib;TCML.lib;TChart.lib;TComp.lib;d3d9.lib;d3dx9.lib;winmm.lib;Advapi32.lib;Imm32.lib;dsound.lib;dxguid.lib;strmiids.lib;Version.lib;dbghelp.lib;Psapi.lib;shlwapi.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SDLRoot)\lib\$(SDLArch);$(SrcRoot)\Lib\3rdParty\zlib\lib\$(LibArch);$(SrcRoot)\Lib\Own\Engine Lib\Lib\$(LibArch);$(SrcRoot)\Lib\Own\TComp\Lib\$(LibArch);$(SrcRoot)\Lib\Own\TCML\Lib\$(LibArch);$(SrcRoot)\Lib\Own\TChart\Lib\$(LibArch);$(SrcRoot)\Lib\3rdParty\DirectX9 (June 2010)\Lib\$(LibArch);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="$(DumpSource)" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+</Project>

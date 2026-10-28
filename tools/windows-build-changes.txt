@@ -1,0 +1,12 @@
+# Original build files whose Windows build intentionally changes.
+# Format: <sha256 of the file>  <repository path> # <reason>
+# tools/check-windows-branches.sh reports a listed file as INTENDED only when
+# its current sha256 matches; any later edit fails the check until this list
+# is updated. A listed .vcxproj may change the build. A listed source file is
+# accepted only when its Windows view differs from the base inside comments
+# (no code change); put every code change inside a project macro instead.
+b05c71025868b37806d6247a03a74382e670e52cf468a2fe875b60b11b327de3  source/4Story 5.0 Source Files/Server/TNetLib/TNetLib.vcxproj # precompiled header off for six files with native branches before it (C1020 fix)
+cd1f02c76a6ad230ee5064a598f198828aa77c960a2c4bcf9c3de49f875276aa  source/4Story 5.0 Source Files/Server/TWorldSvr/TWorldSvr.vcxproj # precompiled header off for DBAccess.cpp (C1020 fix)
+46214f02f8a5cbf2b75b9dc603275f06a85e275fe79711d684f45f076a4d5c8a  source/4Story 5.0 Source Files/Server/TMapSvr/TMapSvr.vcxproj # precompiled header off for DBAccess.cpp (C1020 fix)
+0521f57693d9bfe4704d817fc47f214acb28312c7ce1f1095ec52cbe8f66f453  source/4Story 5.0 Source Files/Server/TControlSvr/TControlSvr.vcxproj # precompiled header off for DBAccess.cpp (C1020 fix)
+5e79a8268f621478f34eaeccf3f6601e062000dd6943e4db3ae095be8551053b  source/4Story 5.0 Source Files/Client/TClient/TClientGM.cpp # slur removed from a comment at user request (2026-10-22); comment-only

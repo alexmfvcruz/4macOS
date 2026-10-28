@@ -1,0 +1,34 @@
+{
+  "dxvk_repo": "https://github.com/generalsx-project/dxvk",
+  "dxvk_commit": "f66da559fd48cd55ddfebca38ed0f708c0f76a24",
+  "dxvk_version": "2.6.0",
+  "directx_repo": "https://github.com/Joshua-Ashton/mingw-directx-headers",
+  "directx_commit": "9df86f2341616ef1888ae59919feaa6d4fad693d",
+  "files": [
+    {
+      "file": "include/d3d9.h",
+      "upstream_path": "include/native/directx/d3d9.h",
+      "sha256": "fd58bd1dee959735c2790da0e2bd963a7b1b8b1283717713d4c7375da1da237e"
+    },
+    {
+      "file": "include/upstream/d3d9types.h",
+      "upstream_path": "include/native/directx/d3d9types.h",
+      "sha256": "7b2294d91d2e0099498db1562dbd507b9d3e5da4141d93552611530250389eb0"
+    },
+    {
+      "file": "include/d3d9caps.h",
+      "upstream_path": "include/native/directx/d3d9caps.h",
+      "sha256": "0a7b77e975f432973ae94f48142dcef707683e42736c98c82b0c9fe737c30ef7"
+    },
+    {
+      "file": "include/pshpack4.h",
+      "upstream_path": "include/native/windows/pshpack4.h",
+      "sha256": "4c80237311c618ac06973beed050d8ad7eafb57e82687d7a2930298d1d1a6a16"
+    },
+    {
+      "file": "include/poppack.h",
+      "upstream_path": "include/native/windows/poppack.h",
+      "sha256": "d95242fc4eae4a97d0aa61c4d81446175e22e1d7b51977455fc29dcc19ffda05"
+    }
+  ]
+}

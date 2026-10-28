@@ -1,0 +1,5 @@
+# C4 text entry: click the Name field, type, Tab to Password, type (1280x800 client coordinates).
+45000 click 650 724
+46000 text tester
+47000 key 9
+48000 text secret12

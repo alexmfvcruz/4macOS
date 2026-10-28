@@ -1,0 +1,12 @@
+# C4 criterion 4 at the login screen: real SDL window operations (their events
+# return through SDL's queue) and Win32-level focus messages.
+44000 window-size 1024 640
+47000 window-size 1280 800
+50000 minimize
+53000 restore
+56000 focus 0
+58000 focus 1
+60000 window-size 960 600
+63000 window-size 1280 800
+66000 click 650 724
+67000 text after

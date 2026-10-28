@@ -1,0 +1,154 @@
+{
+  "schema": 1,
+  "status": "PREPARATION_COMPLETE_RUNTIME_NOT_STARTED",
+  "scope": "C6 preparation, not C6 completion",
+  "candidates": [
+    {
+      "id": "terrain-overview",
+      "status": "DATA_VALIDATED_CAMERA_UNVERIFIED",
+      "gameplay_map_id": 0,
+      "resource_map_id": 2000001,
+      "unit_id": 37,
+      "unit_sha256": "558624dbf851668f743825eb497904b0f758f62ee104f21e7c4476530ad8a818",
+      "camera": {
+        "eye": [
+          1536,
+          351.8390197753906,
+          4448
+        ],
+        "target": [
+          1536,
+          107.9251708984375,
+          4608
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "fov_y_radians": 1.0471975511965976,
+        "near": 0.5,
+        "far": 2048
+      },
+      "dimensions": [
+        640,
+        480
+      ],
+      "animation_tick": 500,
+      "texture_tick": 0,
+      "simulation_tick": 0,
+      "random_seed": 1,
+      "required_categories": [
+        "terrain_base",
+        "terrain_detail"
+      ],
+      "render_mode": "terrain-only; object/effect placement presence is not a draw guarantee",
+      "framing": "candidate; verify on Windows before freezing the approved contract"
+    },
+    {
+      "id": "terrain-layer-stress",
+      "status": "DATA_VALIDATED_CAMERA_UNVERIFIED",
+      "gameplay_map_id": 0,
+      "resource_map_id": 2000001,
+      "unit_id": 57,
+      "unit_sha256": "1929099f97d4babe3d55d9ec57d2b23aba023181c3e70efda70fbff31568a76a",
+      "camera": {
+        "eye": [
+          3584,
+          346.461669921875,
+          6496
+        ],
+        "target": [
+          3584,
+          149.1474151611328,
+          6656
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "fov_y_radians": 1.0471975511965976,
+        "near": 0.5,
+        "far": 2048
+      },
+      "dimensions": [
+        640,
+        480
+      ],
+      "animation_tick": 500,
+      "texture_tick": 0,
+      "simulation_tick": 0,
+      "random_seed": 1,
+      "required_categories": [
+        "terrain_base",
+        "terrain_detail"
+      ],
+      "render_mode": "terrain-only; object/effect placement presence is not a draw guarantee",
+      "framing": "candidate; verify on Windows before freezing the approved contract"
+    },
+    {
+      "id": "terrain-effect-candidate",
+      "status": "DATA_VALIDATED_CAMERA_UNVERIFIED",
+      "gameplay_map_id": 0,
+      "resource_map_id": 2000001,
+      "unit_id": 3,
+      "unit_sha256": "c35ee7d95142dcaa4b19f6d3fad122cb49b7f540befa97f0275debc23c6e4cdf",
+      "camera": {
+        "eye": [
+          3584,
+          335.00001525878906,
+          352
+        ],
+        "target": [
+          3584,
+          173.00001525878906,
+          512
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "fov_y_radians": 1.0471975511965976,
+        "near": 0.5,
+        "far": 2048
+      },
+      "dimensions": [
+        640,
+        480
+      ],
+      "animation_tick": 500,
+      "texture_tick": 0,
+      "simulation_tick": 0,
+      "random_seed": 1,
+      "required_categories": [
+        "terrain_base",
+        "terrain_detail"
+      ],
+      "render_mode": "terrain-only; object/effect placement presence is not a draw guarantee",
+      "framing": "candidate; verify on Windows before freezing the approved contract"
+    }
+  ],
+  "full_c6_required_categories": [
+    "terrain_base",
+    "terrain_detail",
+    "bsp_base",
+    "bsp_lightmap",
+    "static_objects",
+    "skinned_characters",
+    "water",
+    "effects",
+    "minimap",
+    "glow"
+  ],
+  "unresolved_scenes": {
+    "bsp_base": "Seven standalone BSP files exist; no BSP resource index entry. Need original Windows location/loading-path evidence.",
+    "water": "Select visibly wet camera and actual surface IDs on Windows; negative height alone is not proof of water.",
+    "skinned_characters": "Reuse original C3 character1005220/action21548/animation23452 tick500 only after equipped world placement/finite mesh audit.",
+    "effects": "Unit3 contains189 effect placements; choose visible nonrandom effect and preserve its ID/seed/time.",
+    "minimap": "Capture original192x192 A8R8G8B8 target; separate full-frame image required.",
+    "glow": "No caller found in inspected C++/headers; require Windows activation evidence or explicit reviewed scope decision. No silent N/A."
+  },
+  "promotion_rule": "After framing approval, copy exact camera/settings into capture contract. Do not change the contract to match the Mac output."
+}

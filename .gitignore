@@ -1,0 +1,17 @@
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+*.log
+/build/
+/runtime/
+/.publication/
+/deps/
+/game/
+/server/bin/
+/server/database/
+*.zip
+*.tar
+*.tar.gz
+*.dmg
+/native/happy/

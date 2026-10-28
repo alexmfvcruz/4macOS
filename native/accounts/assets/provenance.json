@@ -1,0 +1,23 @@
+[
+  {
+    "name": "logo.png",
+    "url": "https://gf1.geo.gfsrv.net/cdnc3/ebf2dabe3cd1d8e0c225c8b8ecb085.png",
+    "sha256": "4d68f3d4d2762bf9e334b5ec45e346161976b1e00593261fdfe14fba06ea1b85",
+    "bytes": 66599,
+    "used_in_mockup": true
+  },
+  {
+    "name": "gold-button-sprite.jpg",
+    "url": "https://gf1.geo.gfsrv.net/cdn64/2de8406e53691afa7fb7218384ba97.jpg",
+    "sha256": "15b0f7f3c17958a85740289fb6508a6258442016c520dd713810330da7386f55",
+    "bytes": 7576,
+    "used_in_mockup": true
+  },
+  {
+    "name": "panel.jpg",
+    "url": "https://gf3.geo.gfsrv.net/cdnb6/d61df2a01926955510b875f6b1be9d.jpg",
+    "sha256": "20c4d9702b91522be3fdbc87141fd1b69360137ed0345c2aa5111656b9f46ea2",
+    "bytes": 45183,
+    "used_in_mockup": true
+  }
+]

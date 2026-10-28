@@ -1,0 +1,14 @@
+# C5: log in with the disposable account (C4_USER, C4_PASS from the
+# environment; never written to this file or the log), select the server, create C5Mac01.
+45000 click 650 724
+45500 text-env C4_USER
+46000 click 650 752
+46500 text-env C4_PASS
+47000 click 780 738
+52000 click 640 711
+52000 click 640 711
+54000 key 13
+# Character creation screen (empty account): default race/class/appearance.
+62000 click 668 733
+62500 text C5Mac01
+63500 click 1142 739
