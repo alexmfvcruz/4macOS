@@ -1,7 +1,10 @@
 # Offline build and game inputs
 
 The source repository is https://github.com/alexmfvcruz/4macOS . The maintainer
-supplies these ZIP archives separately; hosting links will be added when chosen.
+supplies these ZIP archives separately;
+
+Google Drive: https://drive.google.com/drive/folders/1tvnin13n094Db87iNMI3dirLcUtzLEu3?usp=sharing
+
 Use the matching set of archives and source revision together.
 
 | Archive | Folder to copy into the source checkout |
