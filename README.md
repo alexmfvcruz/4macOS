@@ -150,6 +150,8 @@ This port runs the original client and server code natively on Apple silicon.
 
 ## Build
 
+Compiled binaries (the app and the server) are available in the Releases section of this repository, if you don't want to build from source.
+
 Use an Apple silicon Mac with Apple developer tools, Python 3 and full Xcode for
 Happy Tool. The project dependency libraries and Rust toolchain are supplied.
 No download is needed for the normal client/accounts build.
