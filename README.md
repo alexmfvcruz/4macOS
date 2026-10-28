@@ -137,6 +137,10 @@ the commands below are the supported workflow for this workspace.
 To build only one target, replace `all` with `client`, `server`, `accounts` or `happy`.
 Building does not start game servers or alter a database.
 
+![The doctor check passing](docs/screenshots/doctor.jpg)
+
+![A finished build](docs/screenshots/build.jpg)
+
 ## Play
 
 After building, open `Play.command` or the development app under
@@ -148,6 +152,8 @@ After building, open `Play.command` or the development app under
 
 The server owner supplies a game account. The default port is 4815. Loopback is
 not a valid local game-login address for this server; use the Mac's LAN address.
+
+![The 4Story login screen on macOS](docs/screenshots/client-login.jpg)
 
 ## Run your own server
 
@@ -170,6 +176,14 @@ and Keychain entry `4Story Port Server`. Configuration and game logs stay under
 inside that Colima profile.
 The game listener ports are 3615, 4815, 3815, 5815 and 4700. Another server using
 those ports must be stopped before this server can start; setup never stops it.
+
+![Server install](docs/screenshots/server-install.jpg)
+
+![Server start](docs/screenshots/server-start.jpg)
+
+![Creating an account](docs/screenshots/create-account.jpg)
+
+![Server status](docs/screenshots/server-status.jpg)
 
 ### Connect to the database
 
