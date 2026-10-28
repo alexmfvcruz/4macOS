@@ -1,5 +1,13 @@
 # 4macOS
 
+## Screenshots
+
+| | |
+| --- | --- |
+| ![Magnaktia Soldier's District, running natively on macOS](docs/screenshots/town.jpg) | ![The Encampment of the Spirit](docs/screenshots/camp.jpg) |
+| ![Fighting spirits in the wasteland](docs/screenshots/combat.jpg) | ![Casting a skill](docs/screenshots/skill-cast.jpg) |
+| ![The game settings, with anisotropic filtering, spatial audio and interface scale](docs/screenshots/settings.jpg) | ![The prompt to use F1–F12 without Fn](docs/screenshots/function-keys.jpg) |
+
 This folder carries the native client/server source, development tools, game
 data, third-party runtime libraries, dependency sources, locked Rust crates,
 build tools and clean database seeds.
